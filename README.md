@@ -61,7 +61,7 @@ Estas imagens representam o **design original desenvolvido no Figma**, mostrando
 3. → Tela do formulário de contato com layout visual do design.
    <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7204850a-7ac5-428c-8a40-9744e0ea6069" />
 
-🧠 *Essas imagens foram exportadas diretamente do Figma para ilustrar o design planejado da landing page.*
+❗ *Essas imagens foram exportadas diretamente do Figma para ilustrar o design planejado do Site Empresarial.*
 
 ---
 
