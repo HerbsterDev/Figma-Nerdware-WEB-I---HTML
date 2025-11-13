@@ -54,9 +54,12 @@ O objetivo é **mostrar as diferenças entre o design planejado e o resultado no
 
 Estas imagens representam o **design original desenvolvido no Figma**, mostrando a estrutura, cores e disposição dos elementos antes da codificação.
 
-1. **img1** → Tela inicial projetada no Figma (banner e menu).  
-2. **img2** → Página de produtos e categorias no protótipo.  
-3. **img3** → Tela do formulário de contato com layout visual do design.
+1. → Tela inicial projetada no Figma (banner e menu).  
+ <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/e5d2f58f-51da-4fa4-a278-aadf434372de" />
+2. → Página de produtos e categorias no protótipo.
+  <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/f2ae36b5-a50b-4ee6-8dac-e37d4c22085c" />
+3. → Tela do formulário de contato com layout visual do design.
+   <img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/7204850a-7ac5-428c-8a40-9744e0ea6069" />
 
 🧠 *Essas imagens foram exportadas diretamente do Figma para ilustrar o design planejado da landing page.*
 
