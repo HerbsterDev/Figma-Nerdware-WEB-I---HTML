@@ -11,7 +11,7 @@ A Landing Page foi projetada para **apresentar a marca, destacar seus produtos e
 
 | Projeto | Link do Projeto |
 |----------|-------------------|
-| **Site Empresarial — Nerdware** | [Projeto](https://figma.com/projeto-nerdware) |
+| **Site Empresarial — Nerdware** | [Projeto](https://herbsterdev.github.io/Figma-Nerdware-WEB-I---HTML/) |
 
 ---
 
