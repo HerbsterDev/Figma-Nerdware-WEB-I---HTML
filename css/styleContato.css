@@ -147,8 +147,6 @@ nav {
     color: #00A202;
 }
 
-
-
 .fontDecoH1 {
     display: flex;
     justify-content: center;
@@ -211,7 +209,6 @@ body {
     padding: 30px;
 }
 
-/* CONTAINER GERAL */
 .container {
     display: flex;
     gap: 30px;
@@ -219,7 +216,6 @@ body {
     align-items: flex-start;
 }
 
-/* COLUNA ESQUERDA */
 .left {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -227,7 +223,6 @@ body {
     position: relative;
 }
 
-/* CARDS */
 .card {
     width: 150px;
     background: white;
@@ -243,7 +238,6 @@ body {
     margin-bottom: 10px;
 }
 
-/* FORMULÁRIO */
 .form-box {
     width: 500px;
     background: #d100ff;
@@ -292,7 +286,6 @@ button:hover {
     background: #ffe6ff;
 }
 
-/* RESPONSIVIDADE */
 @media (max-width: 900px) {
     .container {
         flex-direction: column;
@@ -335,4 +328,5 @@ footer {
     height: 36px;
     border-radius: 10px;
     color: #9893A1;
+
 }
