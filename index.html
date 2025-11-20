@@ -1,22 +1,41 @@
 <!DOCTYPE html>
+<html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página Principal</title>
     <link rel="stylesheet" href="css/styleIndex.css">
 </head>
 <body>
 
-    <header id="Header"><h1 id="headerTitle">NerdWare</h1>
+    <header id="Header">
+        <h1 id="headerTitle">NerdWare</h1>
+
         <nav>
-            <div class="pesquisaDiv" id="pesquisa">  O que você está procurando? Digite aqui...  <div class="pesquisaDiv" id="pesquisaDecoracao"><img src="img/lupa.png" alt="" width="40" height="40"></div></div>
+            <div class="pesquisaDiv" id="pesquisa">
+                O que você está procurando? Digite aqui...
+                <div class="pesquisaDiv" id="pesquisaDecoracao">
+                    <img src="img/imgIndex/lupa.png" alt="" width="40" height="40">
+                </div>
+            </div>
         </nav>
 
         <div class="detalhesHeader1">
-            <div class="detalhesHeader"><img src="img/usuario.png" alt="" width="25" height="25"><p>Minha Conta</p></div>
-            <div class="detalhesHeader"><img src="img/coracao.png" alt="" width="25" height="25"><p>Favoritos</p></div>
+            <div class="detalhesHeader">
+                <img src="img/imgIndex/usuario.png" alt="" width="25" height="25">
+                <p>Minha Conta</p>
+            </div>
+
+            <div class="detalhesHeader">
+                <img src="img/imgIndex/coracao.png" alt="" width="25" height="25">
+                <p>Favoritos</p>
+            </div>
         </div>
 
-        <div id="carro" class="detalhesHeader"><img id="carroimg" src="img/carrinho-carrinho.png" alt="" width="25" height="25"><p id="carrotxt">CARRINHO</p></div>
+        <div id="carro" class="detalhesHeader">
+            <img id="carroimg" src="img/imgIndex/carrinho-carrinho.png" alt="" width="25" height="25">
+            <p id="carrotxt">CARRINHO</p>
+        </div>
     </header>
 
     <div id="headerDecoracao">
@@ -24,101 +43,140 @@
         <div class="botaoHeader">MONTE SEU PC</div>   
         <div class="botaoHeader">PCS GAMERS</div>   
         <div class="botaoHeader">PROMOÇÕES</div>   
-        <div class="botaoHeader">CONTATO</div>
+        <a href="html/contato.html" id="botaoHeaderContato"><div class="botaoHeader">CONTATO</div></a>
     </div>
 
-    <div class="pageDiv2"><div class="pageDiv"><img src="img/lampadaicon.png" alt="" width="19" height="19"></div>
+    <div class="pageDiv2">
+        <div class="pageDiv">
+            <img src="img/imgIndex/lampadaicon.png" alt="" width="19" height="19">
+        </div>
         <h1 class="textPage">PRODUTOS NOVOS E LANÇAMENTOS</h1>
     </div>
 
     <div class="grupoCard">
-        <div id="grupoCard1-1"><div class="grupoCardFoto">
-            <img src="img/cadeira.png" alt="cadeira" width="340" height="340">
-        </div class="grupoCardText">
-            <p class="grupoCardWhiteP">Cadeira Gamer TGT Heron M, Preto, TGT-HRM-BK02</p>
-            <p class="grupoCardRedP">de R$ 588,22 por</p>
-            <p class="grupoCardGreenP">R$ 389,99</p>
-            <p class="grupoCardWhiteP">15% de desconto no pix</p>
-            <p class="grupoCardWhiteP">Em até 12x de R$ 38,23 sem juros no cartão</p>
+
+        <a href="html/detalhes.html">
+            <div id="grupoCard1-1" class="grupoCardItem">
+                <div class="grupoCardFoto">
+                    <img src="img/imgIndex/cadeira.png" alt="cadeira" width="340" height="340">
+                </div>
+
+                <div class="grupoCardText">
+                    <p class="grupoCardWhiteP">Cadeira Gamer TGT Heron M, Preto, TGT-HRM-BK02</p>
+                    <p class="grupoCardRedP">de R$ 588,22 por</p>
+                    <p class="grupoCardGreenP">R$ 389,99</p>
+                    <p class="grupoCardWhiteP">15% de desconto no pix</p>
+                    <p class="grupoCardWhiteP">Em até 12x de R$ 38,23 sem juros no cartão</p>
+                </div>
+            </div>
+        </a>
+
+        <div id="grupoCard1-2" class="grupoCardItem">
+            <div class="grupoCardFoto">
+                <img src="img/imgIndex/gabinete.png" alt="gabinete" width="340" height="340">
+            </div>
+
+            <div class="grupoCardText">
+                <p class="grupoCardWhiteP">Gabinete Gamer Pichau Seraph, RGB, Mid-Tower, Lateral de Vidro, Com 3 Fans, Preto, PG-SER-BK3F</p>
+                <p class="grupoCardRedP">de R$ 85,87 por</p>
+                <p class="grupoCardGreenP">R$ 67,95</p>
+                <p class="grupoCardWhiteP">15% de desconto no pix</p>
+                <p class="grupoCardWhiteP">Em até 6x de R$ 13,32 sem juros no cartão</p>
+            </div>
         </div>
 
-        <div id="grupoCard1-2"><div class="grupoCardFoto">
-            <img src="img/gabinete.png" alt="gabinete" width="340" height="340">
-        </div class="grupoCardText">
-            <p class="grupoCardWhiteP">Gabinete Gamer Pichau Seraph, RGB, Mid-Tower, Lateral de Vidro, Com 3 Fans, Preto, PG-SER-BK3F</p>
-            <p class="grupoCardRedP">de R$ 85,87 por</p>
-            <p class="grupoCardGreenP">R$ 67,95</p>
-            <p class="grupoCardWhiteP">15% de desconto no pix</p>
-            <p class="grupoCardWhiteP">Em até 6x de R$ 13,32 sem juros no cartão</p>
-        </div> 
+        <div id="grupoCard1-3" class="grupoCardItem">
+            <div class="grupoCardFoto">
+                <img src="img/imgIndex/gpu.png" alt="placa de video" width="340" height="340">
+            </div>
 
-        <div id="grupoCard1-3"><div class="grupoCardFoto">
-            <img src="img/gpu.png" alt="placa de video" width="340" height="340">
-        </div class="grupoCardText">
-            <p class="grupoCardWhiteP">Placa de Video Mancer Radeon RX 6600 LE Streaky, 8GB, GDDR6, 128-bit, MCR-RX6600LE-STK</p>
-            <p class="grupoCardGreenP">R$ 1.389,99</p>
-            <p class="grupoCardGreenP">À vista</p>
-            <p class="grupoCardWhiteP">15% de desconto no pix</p>
-            <p class="grupoCardWhiteP">Em até 12x de R$ 136,27 sem juros no cartão</p>
+            <div class="grupoCardText">
+                <p class="grupoCardWhiteP">Placa de Video Mancer Radeon RX 6600 LE Streaky, 8GB, GDDR6, 128-bit, MCR-RX6600LE-STK</p>
+                <p class="grupoCardGreenP">R$ 1.389,99</p>
+                <p class="grupoCardGreenP">À vista</p>
+                <p class="grupoCardWhiteP">15% de desconto no pix</p>
+                <p class="grupoCardWhiteP">Em até 12x de R$ 136,27 sem juros no cartão</p>
+            </div>
         </div>
 
-        <div id="grupoCard1-4"><div class="grupoCardFoto">
-            <img src="img/amd.png" alt="amd ryzen" width="340" height="340">
-        </div class="grupoCardText">
-            <p class="grupoCardWhiteP">Processador AMD Ryzen 5 5500X3D, 6-Core, 12-Threads, 3GHz (4GHz Turbo), Cache 99MB, AM4, 100-100001504WOF</p>
-            <p class="grupoCardRedP">de R$ 1.882,34 por</p>
-            <p class="grupoCardGreenP">R$ 1.149,99</p>
-            <p class="grupoCardWhiteP">15% de desconto no pix</p>
-            <p class="grupoCardWhiteP">Em até 12x de R$ 112,74 sem juros no cartão</p>
+        <div id="grupoCard1-4" class="grupoCardItem">
+            <div class="grupoCardFoto">
+                <img src="img/imgIndex/amd.png" alt="amd ryzen" width="340" height="340">
+            </div>
+
+            <div class="grupoCardText">
+                <p class="grupoCardWhiteP">Processador AMD Ryzen 5 5500X3D, 6-Core, 12-Threads, 3GHz (4GHz Turbo), Cache 99MB, AM4, 100-100001504WOF</p>
+                <p class="grupoCardRedP">de R$ 1.882,34 por</p>
+                <p class="grupoCardGreenP">R$ 1.149,99</p>
+                <p class="grupoCardWhiteP">15% de desconto no pix</p>
+                <p class="grupoCardWhiteP">Em até 12x de R$ 112,74 sem juros no cartão</p>
+            </div>
         </div>
 
-        <div id="grupoCard1-5"><div class="grupoCardFoto">
-            <img src="img/monitor.png" alt="monitor" width="340" height="340">
-        </div class="grupoCardText">
-            <p class="grupoCardWhiteP">Monitor Gamer Pichau Nexus S361, 27 Pol, IPS, FHD, 1ms, 360Hz, FreeSync, G-Sync, DP/HDMI, PG-NXS361-BL02</p>
-            <p class="grupoCardRedP">de R$ 1.899,99 por</p>
-            <p class="grupoCardGreenP">R$ 1.499,99</p>
-            <p class="grupoCardWhiteP">15% de desconto no pix</p>
-            <p class="grupoCardWhiteP">Em até 12x de R$ 147,06 sem juros no cartão</p>
+        <div id="grupoCard1-5" class="grupoCardItem">
+            <div class="grupoCardFoto">
+                <img src="img/imgIndex/monitor.png" alt="monitor" width="340" height="340">
+            </div>
+
+            <div class="grupoCardText">
+                <p class="grupoCardWhiteP">Monitor Gamer Pichau Nexus S361, 27 Pol, IPS, FHD, 1ms, 360Hz, FreeSync, G-Sync, DP/HDMI, PG-NXS361-BL02</p>
+                <p class="grupoCardRedP">de R$ 1.899,99 por</p>
+                <p class="grupoCardGreenP">R$ 1.499,99</p>
+                <p class="grupoCardWhiteP">15% de desconto no pix</p>
+                <p class="grupoCardWhiteP">Em até 12x de R$ 147,06 sem juros no cartão</p>
+            </div>
         </div>
     </div>
 
-
-    <div class="pageDiv2"><div class="pageDiv"><img src="img/pcicon.png" alt="" width="19" height="19"></div>
+    <div class="pageDiv2">
+        <div class="pageDiv">
+            <img src="img/imgIndex/pcicon.png" alt="" width="19" height="19">
+        </div>
         <h1 class="textPage">QUAL PC VOCÊ PROCURA HOJE?</h1>
     </div>
 
     <div id="decoracaoIndex">
         <div id="ordernar">
+
             <div id="c1" class="ajustarCoisas">
-                <div id="c1-1" class="detalheDecoracaoIndex"><img class="imgIndexDec" src="img/icoDec1.png" alt="" width="80" height="80">
+                <div id="c1-1" class="detalheDecoracaoIndex">
+                    <img class="imgIndexDec" src="img/imgIndex/icoDec1.png" alt="" width="80" height="80">
                 </div>
-                    <h1 class="fontDecoH1">GAMER</h1>
-                    <p class="fontDecoP">O PC PERFEITO PARA JOGAR</p>
-                </div>
+                <h1 class="fontDecoH1">GAMER</h1>
+                <p class="fontDecoP">O PC PERFEITO PARA JOGAR</p>
+            </div>
 
             <div id="c2" class="ajustarCoisas">
-                <div id="c2-2" class="detalheDecoracaoIndex"><img class="imgIndexDec" src="img/icoDec2.png" alt="" width="80" height="80">
+                <div id="c2-2" class="detalheDecoracaoIndex">
+                    <img class="imgIndexDec" src="img/imgIndex/icoDec2.png" alt="" width="80" height="80">
                 </div>
-                    <h1 class="fontDecoH1">WORK STATION</h1>
-                    <p  class="fontDecoP">PARA MODELAGEM E RENDERIZAÇÃO</p>
-                </div>
+                <h1 class="fontDecoH1">WORK STATION</h1>
+                <p class="fontDecoP">PARA MODELAGEM E RENDERIZAÇÃO</p>
+            </div>
 
             <div id="c3" class="ajustarCoisas">
-                <div id="c3-3" class="detalheDecoracaoIndex"><img class="imgIndexDec" src="img/icoDec3.png" alt="" width="80" height="80"></div>
-                    <h1 class="fontDecoH1">HOME</h1>
-                    <p  class="fontDecoP">PARA CASA OU ESCRITÓRIO</p>
+                <div id="c3-3" class="detalheDecoracaoIndex">
+                    <img class="imgIndexDec" src="img/imgIndex/icoDec3.png" alt="" width="80" height="80">
                 </div>
+                <h1 class="fontDecoH1">HOME</h1>
+                <p class="fontDecoP">PARA CASA OU ESCRITÓRIO</p>
+            </div>
 
             <div id="c4" class="ajustarCoisas">
-                <div id="c4-4" class="detalheDecoracaoIndex"><img class="imgIndexDec" src="img/icoDec4.png" alt="" width="80" height="80"></div>
-                    <h1 class="fontDecoH1">CONFIG.</h1>
-                    <p  class="fontDecoP">MONTE O PC PERFEITO PARA VOCÊ</p>
+                <div id="c4-4" class="detalheDecoracaoIndex">
+                    <img class="imgIndexDec" src="img/imgIndex/icoDec4.png" alt="" width="80" height="80">
                 </div>
+                <h1 class="fontDecoH1">CONFIG.</h1>
+                <p class="fontDecoP">MONTE O PC PERFEITO PARA VOCÊ</p>
+            </div>
+
         </div>
     </div>
 
-    <div id="anuncioIndex1"><img id="img1deco" src="/img/anuncio1.png" alt="" height="90" width="800"> <img id="img2deco" src="/img/anuncio2.png" alt="" height="90" width="800"></div>
+    <div id="anuncioIndex1">
+        <img id="img1deco" src="img/imgIndex/anuncio1.png" alt="" height="90" width="800">
+        <img id="img2deco" src="img/imgIndex/anuncio2.png" alt="" height="90" width="800">
+    </div>
 
     <footer>
         <div id="footerF">
@@ -131,7 +189,8 @@
 
             <div>
                 <h1 class="textoFooter">BAIXE OS APLICATIVOS</h1>
-                <img src="img/playstore.png" alt="" width="100" height="34"> <img src="img/appstore.png" alt="" width="100" height="34">
+                <img src="img/imgIndex/playstore.png" alt="" width="100" height="34">
+                <img src="img/imgIndex/appstore.png" alt="" width="100" height="34">
             </div>
 
             <div>
@@ -144,11 +203,11 @@
 
             <div>
                 <h1 class="textoFooter">Siga-nos nas redes socias</h1>
-                <img src="img/whatssap.png" alt="" width="30" height="30">
-                <img src="img/facebook.png" alt="" width="30" height="30">
-                <img src="img/twiter.png" alt="" width="30" height="30">
-                <img src="img/pinterest.png" alt="" width="30" height="30">
-                <img src="img/linkedin.png" alt="" width="30" height="30">
+                <img src="img/imgIndex/whatssap.png" alt="" width="30" height="30">
+                <img src="img/imgIndex/facebook.png" alt="" width="30" height="30">
+                <img src="img/imgIndex/twiter.png" alt="" width="30" height="30">
+                <img src="img/imgIndex/pinterest.png" alt="" width="30" height="30">
+                <img src="img/imgIndex/linkedin.png" alt="" width="30" height="30">
             </div>
 
             <div>
@@ -158,5 +217,7 @@
 
         </div>
     </footer>
+
 </body>
 </html>
+
