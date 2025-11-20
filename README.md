@@ -81,6 +81,11 @@ As imagens abaixo mostram o **resultado final desenvolvido com HTML e CSS puros*
 
 ---
 
+## 🚨 Diferenças Críticas na Implementação (Figma vs. Código)
+
+Título Inconsistente: O estilo da tipografia do título "NERDWARE" no cabeçalho não corresponde exatamente ao design, apresentando diferenças no peso da fonte ou na capitalização.
+
+Ícones de Contato Isolados: Na página CONTATO, os blocos de ícones e informações (Localização, Telefone, etc.) estão excessivamente separados e distantes do formulário de contato, falhando no agrupamento visual.
 
 ## 👩‍💻 Autores
 Projeto Desenvolvido por:  
