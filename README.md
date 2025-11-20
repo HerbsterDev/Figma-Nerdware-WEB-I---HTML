@@ -69,9 +69,13 @@ Estas imagens representam o **design original desenvolvido no Figma**, mostrando
 
 As imagens abaixo mostram o **resultado final desenvolvido com HTML e CSS puros**, recriando o design do Figma de forma funcional.
 
-4. **img4** → Página inicial implementada com HTML e CSS.  
-5. **img5** → Seção de produtos com cards e botões interativos.  
-6. **img6** → Formulário de contato estilizado no código.
+4. → Página inicial implementada com HTML e CSS.
+   ![HTMLeCSS1](https://github.com/user-attachments/assets/60ebc215-371a-458c-bbad-35f46ee876c7)
+6. → Seção de produtos com cards e botões interativos.
+   ![HTMLeCSS2](https://github.com/user-attachments/assets/419f815b-8ed4-484d-8ea3-5cd73dcf1ac2)
+8. → Formulário de contato estilizado no código.
+![HTMLeCSS3](https://github.com/user-attachments/assets/c5e957e1-2722-48df-8025-5ced94349e71)
+
 
 🧩 *Essas imagens servem para comparar o protótipo com o resultado prático, analisando a fidelidade visual entre design e código.*
 
